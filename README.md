@@ -18,9 +18,9 @@ const choice = arr[Math.floor(Math.random() * arr.length)];
 ## Contoh Penggunaan
 
 ```javascript
-import random from 'ransyr';
+import ransyr from 'ransyr';
 
 const arr = ["apple", "banana", "cherry"];
-console.log(random.choice(arr));
-console.log(random.random());
+console.log(ransyr.choice(arr));
+console.log(ransyr.random());
 ```
