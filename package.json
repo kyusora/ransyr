@@ -2,7 +2,9 @@
   "name": "ransyr",
   "version": "1.0.0",
   "description": "python like random utilities for make things easier",
-  "main": "main.js",
+  "main": "main.cjs",
+  "module": "main.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
