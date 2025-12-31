@@ -1,0 +1,2 @@
+# ransyr
+python like random
