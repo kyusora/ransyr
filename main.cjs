@@ -1,6 +1,6 @@
 
 
-module.export = class randx {
+module.exports = class randx {
 	
 	static Rest;
 	
