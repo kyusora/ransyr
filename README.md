@@ -8,19 +8,21 @@ Python-like random utilities for JavaScript, designed to make your life easier ð
 
 ## Description
 
-`ransyr` dibuat untuk mempermudah penggunaan random di JavaScript, **meniru gaya Python**.  
-Daripada harus menulis:
+`ransyr` is a random tools that **imitate python style**.  
 
-```javascript
-const choice = arr[Math.floor(Math.random() * arr.length)];
+## You Can Use Custom Seed
+
+```typescript
+randx.randomseed(27382: number)
+console.log(randx.random())
 ```
 
-## Contoh Penggunaan
+## Usage Example
 
 ```javascript
-import ransyr from 'ransyr';
+import randx from 'ransyr';
 
 const arr = ["apple", "banana", "cherry"];
-console.log(ransyr.choice(arr));
-console.log(ransyr.random());
+console.log(randx.choice(arr));
+console.log(randx.random());
 ```
